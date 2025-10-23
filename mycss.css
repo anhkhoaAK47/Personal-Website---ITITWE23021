@@ -1,0 +1,296 @@
+html body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Image container */
+.cover-container {
+    width: 100%;
+}
+
+/* Skateboard image */
+.cover {
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: top;
+}
+
+/* Hometab */
+.hometab {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(253, 153, 30);
+    padding: 10px;
+}
+
+/* Box that contains skaterboy title */
+.title-container {
+    display: flex;
+    column-gap: 5px;
+    width: auto;
+    padding: 5px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: white;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 3px;
+    background-color: red;
+    border-radius: 50px;
+    border-color: black;
+    border-style: solid;
+    border-width: 5px;
+}
+
+
+/* Navigation bar, duhh */
+.navbar {
+    margin-top: 10px;
+    margin-left: auto;
+
+}
+
+.navlist{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.navlist li {
+    float: left;
+}
+
+.navlist li a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    margin: 15px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.navlist li a:hover{
+    color: rgb(230, 26, 26);
+    background-color: rgb(255, 172, 71);
+}
+
+.dropdown {
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    padding: 10px;
+    margin: 15px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    color: black;
+    background-color: transparent;
+    font-family: inherit;
+}
+
+.dropbtn:hover {
+    color: rgb(230, 26, 26);
+    background-color: rgb(255, 172, 71);
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100px;
+    background-color: white;
+}
+
+.dropdown-content a{
+    cursor: pointer;
+}
+
+.navlist .dropdown-content a:hover {
+    color: black;
+    background-color: rgb(194, 194, 194);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.title {
+    /* position: absolute;
+    top: 0px;
+    left: 10px; */
+    display: inline-block;
+    
+
+}
+
+.content-container {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px;
+
+}
+
+.titlepage header{
+    text-align: center;
+    font-size: 30px;
+}
+
+.titlepage p {
+    font-size: 25px;
+    text-align: center;
+    /* background-color: red; */
+    margin: 0;
+}
+
+.tricks-list {
+    display: flex;
+    flex-direction: row;
+    margin-inline: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 500px;
+    /* background-color: red; */
+    text-align: center;
+    /* position: relative;
+    top: -75px; */
+}
+
+.tricks-list a {
+    padding: 0px;
+    width: 200px;
+    /* background-color: blue; */
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.tricks-list p {
+    padding-left: 15px;
+    width: 100px;
+    text-align: center;
+    /* background-color: green; */
+}
+
+.home-image1 {
+    text-align: center;
+}
+
+.home-image1 img{
+    width: 600px;
+    height: 600px;
+}
+
+footer {
+    padding: 5px;
+    color: white;
+    background-color: darkblue;
+    text-align: center;
+    font-size: 17px;
+}
+
+/* skaterboy_tricklist.html */
+
+.list {
+    font-size: 20px;
+}
+
+.list ul li {
+    list-style-type: none;
+}
+
+/* skaterboy_basictricks.html */
+
+#basictricks p {
+    font-size: 19px;
+}
+
+.basic-tricks p {
+    font-size: 19px;
+    text-align: center;
+}
+
+.basic-tricks img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.basic-tricks #safety{
+    text-align: left;
+}
+
+/* skaterboy_easytricks.html */
+
+.easy-tricks p {
+    text-align: center;
+    font-size: 19px;
+}
+
+.easy-tricks img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* ollie.html */
+
+#ollie iframe {
+    width: 400px;
+    height: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ollie .credit {
+    text-align: center;
+}
+
+#ollie i {
+    font-size: 15px;
+}
+
+/* contact.html */
+
+#contact header p {
+    font-size: 19px;
+}
+
+.form-container {
+    border-radius: 5px;
+    padding: 30px;
+    background-color: ghostwhite;
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    field-sizing: content;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+input[type=submit] {
+    margin-top: -10px;
+    background-color: blue;
+    color: white;
+    font-size: 12px;
+    font-weight:200;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 12px 20px;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: rgb(76, 76, 255);
+}
